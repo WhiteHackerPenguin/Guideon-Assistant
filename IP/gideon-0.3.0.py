@@ -182,15 +182,6 @@ while True:
 
         elif 'cuanto es' in rec:
             speak(sm.getResult(rec))
-            
-        elif 'genio' in rec:
-            speak("Julian Principe, por supuesto. Futuro experto Desarrollador de Aplicaciones Moviles, \
-                tanto Android, como iOS, experto en tecnologias como Flutter, Swift, Dart, y Kotlin. \
-                Logica de Programacion impecable, gran conocedor de las leyes UX/UI, y Frameworks para Apps Multiplataforma, \
-                como Kotlin Multi Platform, y el antes mencionado Flutter. Su objetivo principal es convertirse en un Senior Developer en Flutter, \
-                es un Flutterfanboy, por todas las razones que tiene este Framework para ser amado por la comunidad. \
-                Actualmente esta estudiando Desarrollo Android. \
-                Ah, y mi Programador.")
 
         elif 'todo bien' in rec:
             speak("Por Supuesto.¿Quieres que te ayude con algo?")
@@ -221,21 +212,6 @@ while True:
 
         elif 'espectacular' in rec:
             speak("Gracias. ¿Algo mas?")
-            
-        elif 'leon sarsale' in rec:
-            speak("León es una persona que le gusta excesivamente el helado de limon granizado, le gusta jugar juegos de destruir cosas, y tiene dos huracanes que se hacen llamar  Hermanitos, uno tiene calidad y le interesa la programacion, y el otro es una mezcla de falopa futbolistica, y fortnait. ")
-            
-        elif 'felix' in rec:
-            speak("felix es un drogadicto quimico, y no sabe javascript")
-        
-        elif "es marina becerra" in rec:
-            speak("marina becerra es una sociologa, investigadora y profesora. Es madre de un gran geografo y un futuro Hacker etico, Red Teamer.")
-            
-        elif 'gael' in rec:
-            speak("gael es un judio comunista interesado por la fisica y la matematica, como el desarrollador de este asistente")
-            
-        elif 'la concha de tu madre' in rec:
-            speak("bueeeeno, no es necesario decir malas palabras. solo dime lo que necesitas con educacion, y, si fui programado para entender eso, lo hare, si no, no")
         
         elif 'abrir notepad' in rec:
           nombre_bloque_notas = rec.split()[-1] + ".txt"
@@ -246,15 +222,6 @@ while True:
             speak(f"Abriendo el Bloc de notas {nombre_bloque_notas}")
           else:
             speak(f"No se encontró un Bloc de notas con el nombre {nombre_bloque_notas}")
-        
-        elif 'Lucho' in rec:
-            speak("Lucho es el hermano de un futuro Hacker que estara al servicio de Rusia en contra de la CIA. Gran geografo, y jugador de Ping Pong")    
-            
-        elif 'esta el oso' in rec:
-            speak("El oso esta en la puerta del mejor colegio industrial de Argentina. Ahora no puedo comunicarme con el, pero, todo bien willy?")
-            
-        elif 'vito' in rec:
-            speak("Vito es un virgen, idiota, y estupido que escucha musica de mierda, y, perdon por el insulto pero no puedo con este gei.")
             
         elif 'buenas noches' in rec:
             speak("Buenas noches.Que duermas bien")
